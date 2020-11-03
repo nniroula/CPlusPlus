@@ -169,6 +169,8 @@ int main(){
 }
 */
 
+/*
+
 // Q4 chapter 1 q 35
 #include <iostream>
 using namespace std;
@@ -185,10 +187,48 @@ int threeVariableFunction(){
 }
 
 int main(){
-	cout<<"The calcualtation of the above fucntion gives "<<\
+	cout<<"The calculation of the above function gives "<<\
 			threeVariableFunction()<< endl;
 	return 0;
 }
+*/
+					// CHAPTER 2
 
+/*
+// new line character, escape sequence, tab
+
+#include<iostream>
+using namespace std;
+
+int main(){
+	cout<<"C++ coding is hard"<<endl;
+	cout<<"C++ coding is hard\nHowever it is fun\n";
+	cout<<endl<<"It is problematic to remember all syntax";
+	cout<<"\n";
+	cout<<"\nHow to be a software engineer\n";
+	cout<<"\nHow to be a software engineer\n";
+
+	// Look at the difference
+
+	cout<<"How to be smart in\t C++ programming"<< endl;
+	cout<<"How to be smart in\tC++ programming";
+	cout<<"\a"; // this should cause the computer to beep.
+	return 0;
+}
+
+*/
+
+#include <iostream>
+using namespace std;
+
+// Today's date is 11/03/2020
+
+int main(){
+	cout<<"My name is Nabin\n";
+	cout<<"My age is "<<"guess yourself"<<" years\n";
+	cout<<"My phone number is "<<1234567890<<endl;
+	cout<<"Address is 12345 Main street here come there go\n";
+	return 0;
+}
 
 
